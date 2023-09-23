@@ -494,6 +494,9 @@ textarea.form-textarea{
     padding: 16px;
     margin-top: 8px;
 }
+.texto-contacto{
+    margin: 0;
+}
 
  /* banner home page */
 #banner {
@@ -611,7 +614,6 @@ section.services-grid{
     font-family: Roboto Mono;
     font-size: 20px;
     color: white;
-    /* font-weight: bold; */
 }
 
 
