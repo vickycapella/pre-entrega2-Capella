@@ -87,9 +87,7 @@ div.logo a{
     color: #0F0326 ;
 }
 /* footer */
- /* div.footer {
-    color: #0F0326;
- } */
+
 footer {
     background-color: indianred;
     font-family: Roboto mono;
@@ -201,19 +199,6 @@ footer .footer-card .footer-title{
     font-size: 20px;
 }
 
-
- /* #banner div {
-    display: flex;
-    color: #0F0326;
-    display: flex;
-    justify-content: center;
-    height: 80px;
-    justify-content: space-between;
-     align-items: center;
-    padding-right: 80px;
-    padding-left: 80px;
-    font-size: 20px;
- } */
  h2{ font-family: Roboto mono;
     color: #0F0326;display: flex;
     justify-content: center;
@@ -347,7 +332,7 @@ justify-content: space-between;
     background-image: url(../img/Redes\ sociales.jpg);
 }
 .item3 {
-    background-image: url(../img/Diseño\ gráfico.jpg);
+    background-image: url(../img/Diseño\ grafico.jpg);
 }
 .item4 {
     background-image: url(../img/Marketing\ Digital.jpg);
@@ -359,7 +344,7 @@ justify-content: space-between;
     background-image: url(../img/Redes\ sociales.jpg);
 }
 .item7 {
-    background-image: url(../img/Diseño\ gráfico.jpg);
+    background-image: url(../img/Diseño\ grafico.jpg);
 }
 .item8 {
     background-image: url(../img/Marketing\ Digital.jpg);
@@ -371,7 +356,7 @@ justify-content: space-between;
     background-image: url(../img/Redes\ sociales.jpg);
 }
 .item11 {
-    background-image: url(../img/Diseño\ gráfico.jpg);
+    background-image: url(../img/Diseño\ grafico.jpg);
 }
 .item12 {
     background-image: url(../img/Marketing\ Digital.jpg);
