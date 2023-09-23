@@ -624,7 +624,7 @@ section.services-grid{
 
     section.services-grid{
         display: flex;
-        flex-direction: column ;
+        flex-direction: column;
         width: 100%;
         padding: 20px;
     }   
@@ -654,5 +654,25 @@ section.services-grid{
     }
     
 }
+
+@media (max-width: 768px) {
+    section.grid-galeria{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 20px;
+    }
+    section.grid-galeria div.item{
+        width: 100%;
+        height: 300px;
+
+    }
+    section.grid-galeria div.item:hover{
+        transform: none;
+        transition: none;
+
+    }
+}
+
 /* mediasqueries */
 
