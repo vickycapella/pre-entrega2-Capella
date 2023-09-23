@@ -674,5 +674,23 @@ section.services-grid{
     }
 }
 
+@media (max-width: 1078px){
+    section.contacto-custom div.contact-cards-container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 20px; 
+    }
+    div.form-mapa-container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 20px;
+    }
+    div.formulario-contacto{
+       margin-left: 0;
+    }
+}
+
 /* mediasqueries */
 
