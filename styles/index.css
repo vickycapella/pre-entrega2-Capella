@@ -419,6 +419,14 @@ justify-content: space-between;
 main.contacto{
     padding: 0px 80px;
 }
+
+
+@media (max-width: 768px) {
+    main.contacto {
+        
+        padding: 0px 10px;
+    }
+    }
 main.contacto h2.contact-title{
     padding: 0px 0px;
 
@@ -690,6 +698,14 @@ section.services-grid{
     div.formulario-contacto{
        margin-left: 0;
     }
+}
+
+
+@media (max-width: 768px) {
+.contact-card {
+    justify-content: start;
+    padding: 10px 0px;
+}
 }
 
 /* mediasqueries */
