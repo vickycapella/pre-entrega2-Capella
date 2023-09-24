@@ -724,9 +724,6 @@ section.services-grid{
         padding-left: 30px;
         margin-bottom: 40px;
     }
-    #hero h2.titulo-home{
-        /* margin-bottom: 40px; */
-    }
     section.testimonios {
         display: flex;
         flex-direction: column;
@@ -777,7 +774,11 @@ section.services-grid{
         width: 100%;
         padding: 20px;
     }
+    section h3.titulo-resena{
+        padding-left: 30px;
+        padding-right: 30px;
 
+    }
     }
 
 /* mediasqueries */
