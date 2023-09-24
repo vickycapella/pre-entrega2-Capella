@@ -419,17 +419,8 @@ justify-content: space-between;
 main.contacto{
     padding: 0px 80px;
 }
-
-
-@media (max-width: 768px) {
-    main.contacto {
-        
-        padding: 0px 10px;
-    }
-    }
-main.contacto h2.contact-title{
+main.contacto h2.contact-title {
     padding: 0px 0px;
-
 }
 .contact-cards-container{
     display: flex;
@@ -706,7 +697,87 @@ section.services-grid{
     justify-content: start;
     padding: 10px 0px;
 }
+@media (max-width: 768px) {
+    main.contacto {
+        padding: 0px 10px;
+    }
+    section.contacto-custom div.contact-cards-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 20px;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+    }
+}
+@media (max-width: 1078px){
+    #hero div.hero-image div.inset-layout{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+    #hero p.p-home{
+        padding-right: 30px;
+        padding-left: 30px;
+        margin-bottom: 40px;
+    }
+    #hero h2.titulo-home{
+        /* margin-bottom: 40px; */
+    }
+    section.testimonios {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 20px;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+    .testimonios .p-resena {
+        padding-right: 30px;
+        padding-left: 30px;
+        height: 100%;
+    }
+}
+ 
+@media (max-width: 480px) {
+    h2.titulo-home{
+        font-size: 16px;
+        height: auto;
+    }
+    #hero p.p-home{
+        margin: 30px;
+        border: 30px;
+        font-size: 16px;
+        height: auto;
+    }
+    button.boton-home{
+        border: 30px;
+        font-size: 16px;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+
+    }
+    #hero div.hero-image div.inset-layout{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 0;
+    }
 }
 
-/* mediasqueries */
+ @media (max-width: 768px) {
+    section#banner {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 20px;
+    }
 
+    }
+
+/* mediasqueries */
