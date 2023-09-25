@@ -168,7 +168,7 @@ div.image-container img {
 /* #hero img {
     height: 500px;
     width: 100%;
-    background-color: #0F0326;
+    background-color: $color2;
     background-size: cover;
     background-position: center;
     object-fit: cover;
@@ -605,7 +605,7 @@ section.services-grid {
 }
 
 .navbar {
-  background-color: #cd5c5c !important;
+  background-color: indianred !important;
   font-family: "Roboto Mono";
   overflow-x: hidden;
 }
