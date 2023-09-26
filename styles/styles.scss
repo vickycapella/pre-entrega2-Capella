@@ -6,6 +6,7 @@ $font1:'Roboto Mono';
 
 $color1: indianred;
 $color2: #0F0326;
+$color3: white;
 
 @mixin flex-horizontal-center {display: flex;
     justify-content: center;
@@ -23,6 +24,7 @@ $color2: #0F0326;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: $font1;
 }
 
 .flex-horizontal-center { 
@@ -47,11 +49,11 @@ header div.header-wrapper{
     padding-right: 80px;
     padding-left: 80px;
     font-size: 20px;
-    font-family: $font1;
+    
 }
 
 div.logo a{
-    color: white;
+    color: $color3;
     font-weight: bold;
     text-decoration: none;
 }
@@ -64,7 +66,7 @@ ul li {
 }
 a {
     text-decoration: none;
-    color:white;
+    color: $color3;
 }
 a:hover{
     color: $color2 ;
@@ -75,8 +77,8 @@ a:hover{
 
 footer {
     background-color: $color1;
-    font-family: $font1;
-    color: white;
+    
+    color: $color3;
     @include flex-horizontal-center;
     flex-direction:column;
     width:100%;
@@ -115,7 +117,7 @@ footer div.footer-bottom-container div.footer-card p{
     color: $color2;
 }
 footer div.footer-card p.footer-content {
-    color: white;
+    color: $color3;
     margin-bottom: 0px;
     margin-top: 10px
 }
@@ -174,13 +176,13 @@ div.image-container {
     background-color: #000000a3;
     height: 100%;
     padding: 0 200px;
-    color: white;
+    color: $color3;
 
 }
 
 #hero div.hero-image div.inset-layout h2,
 #hero div.hero-image div.inset-layout p{
-    color: white;
+    color: $color3;
 }
 
 #hero div.hero-image div.inset-layout button{
@@ -199,7 +201,7 @@ div.image-container {
 } */
 #hero p {
     display: flex;
-    font-family: $font1;
+    
     color: $color2;
     @include flex-horizontal-center;
     height: 80px;
@@ -209,7 +211,8 @@ div.image-container {
     font-size: 20px;
 }
 
-h2{ font-family: $font1;
+ h2{ 
+    
     color: $color2;
     @include flex-horizontal-center;
     height: 80px;
@@ -218,7 +221,7 @@ h2{ font-family: $font1;
     padding-left: 80px;
     font-size: 20px;}
 h3 {
-    font-family: $font1;
+    
     color: $color2;
     @include flex-horizontal-center;
     height: 80px;
@@ -227,7 +230,7 @@ h3 {
     font-size: 20px;
 }
 h4{
-    font-family: $font1;
+    
     color: $color2;
     @include flex-horizontal-center;
     height: 80px;
@@ -236,7 +239,7 @@ h4{
 
 .testimonios p{
     display: flex;
-    font-family: $font1;
+    
     color: $color2;
     @include flex-horizontal-center;
     height: 80px;
@@ -249,10 +252,11 @@ p{
     color: $color2;
     font-size: 16px;
     text-align: justify;
+    
 }
 
 label{ 
-    font-family: $font1;
+    
     color: $color2;
     font-size: 16px;
 }
@@ -318,7 +322,7 @@ justify-content: space-between;
     background-position: center;
     border-radius: 10px;
     transition: transform 0.6s ease;
-    border: 5px solid white;
+    border: 5px solid $color3;
 
 }
 .item:hover{
@@ -430,7 +434,7 @@ main.contacto h2.contact-title {
 }
 
 .contact-card { 
-    font-family: $font1;
+    
     padding: 20px 80px;
     @include flex-horizontal-center;
     padding: 20px 80px;
@@ -536,7 +540,7 @@ section.services-grid{
 
 
 .texto-servicios {
-    font-family: $font1;
+    
     margin: 16px;
     font-size: 14px;
 
@@ -587,7 +591,7 @@ section.services-grid{
     font-size: 40px;
 }
 .what a{
-    color: white;
+    color: $color3;
 }
 
 
@@ -597,16 +601,16 @@ section.services-grid{
 
 .navbar{
     background-color: $color1 !important;
-    font-family: $font1;
+    
     overflow-x: hidden;
 }
 .navbar-custom{
     width: 100%;
     display: flex;
     justify-content: flex-end;
-    font-family: $font1;
+    
     font-size: 20px;
-    color: white;
+    color: $color3;
 }
 
 

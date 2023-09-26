@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Roboto Mono";
 }
 
 .flex-horizontal-center {
@@ -28,7 +29,6 @@ header div.header-wrapper {
   padding-right: 80px;
   padding-left: 80px;
   font-size: 20px;
-  font-family: "Roboto Mono";
 }
 
 div.logo a {
@@ -42,24 +42,21 @@ div.logo a {
   display: inline-block;
   margin-left: 10px;
 }
-
 .barra a {
   text-decoration: none;
   color: white;
 }
-
-.barra ul li a:hover {
+.barra a:hover {
   color: #0F0326;
 }
 
 footer {
   background-color: indianred;
-  font-family: "Roboto Mono";
   color: white;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   width: 100%;
   justify-content: space-between;
   padding: 20px 80px;
@@ -146,9 +143,9 @@ div.image-container img {
 
 #hero div.hero-image div.inset-layout {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
   background-color: rgba(0, 0, 0, 0.6392156863);
   height: 100%;
   padding: 0 200px;
@@ -176,36 +173,32 @@ div.image-container img {
 } */
 #hero p {
   display: flex;
-  font-family: "Roboto Mono";
   color: #0F0326;
   display: flex;
   justify-content: center;
+  align-items: center;
   height: 80px;
   justify-content: space-between;
-  align-items: center;
   padding-right: 80px;
   padding-left: 80px;
   font-size: 20px;
 }
 
 h2 {
-  font-family: "Roboto Mono";
   color: #0F0326;
   display: flex;
   justify-content: center;
+  align-items: center;
   height: 80px;
   justify-content: space-between;
-  align-items: center;
   padding-right: 80px;
   padding-left: 80px;
   font-size: 20px;
 }
 
 h3 {
-  font-family: "Roboto Mono";
   color: #0F0326;
   display: flex;
-  justify-content: space-between;
   justify-content: center;
   align-items: center;
   height: 80px;
@@ -215,24 +208,20 @@ h3 {
 }
 
 h4 {
-  font-family: "Roboto Mono";
   color: #0F0326;
   display: flex;
   justify-content: center;
-  height: 80px;
-  justify-content: space-between;
   align-items: center;
+  height: 80px;
 }
 
 .testimonios p {
   display: flex;
-  font-family: "Roboto Mono";
   color: #0F0326;
   display: flex;
   justify-content: center;
-  height: 80px;
-  justify-content: space-between;
   align-items: center;
+  height: 80px;
   padding-right: 80px;
   padding-left: 80px;
   font-size: 20px;
@@ -245,7 +234,6 @@ p {
 }
 
 label {
-  font-family: "Roboto Mono";
   color: #0F0326;
   font-size: 16px;
 }
@@ -442,7 +430,6 @@ main.contacto h2.contact-title {
 }
 
 .contact-card {
-  font-family: "Roboto Mono";
   padding: 20px 80px;
   display: flex;
   justify-content: center;
@@ -521,12 +508,12 @@ textarea.form-textarea {
 
 #banner .card-banner {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column-reverse;
   border: solid 2px black;
   border-radius: 10px;
-  align-items: center;
   height: 150px;
-  justify-content: center;
 }
 
 .iconos {
@@ -547,7 +534,6 @@ section.services-grid {
 }
 
 .texto-servicios {
-  font-family: "Roboto Mono";
   margin: 16px;
   font-size: 14px;
 }
@@ -606,7 +592,6 @@ section.services-grid {
 
 .navbar {
   background-color: indianred !important;
-  font-family: "Roboto Mono";
   overflow-x: hidden;
 }
 
@@ -614,7 +599,6 @@ section.services-grid {
   width: 100%;
   display: flex;
   justify-content: flex-end;
-  font-family: "Roboto Mono";
   font-size: 20px;
   color: white;
 }
