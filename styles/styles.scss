@@ -76,8 +76,7 @@ a:hover{
 // /------------* FOOTER */--------------
 
 footer {
-    background-color: $color1;
-    
+    background-color: $color1; 
     color: $color3;
     @include flex-horizontal-center;
     flex-direction:column;
@@ -133,7 +132,6 @@ footer .footer-card .footer-title{
 // PAGES:
 
 /* -------Nosotros */
-
 article.nosotros-card {
     display: flex;
     justify-content: center;
@@ -157,9 +155,6 @@ div.image-container {
     }
 
 }
-
-
-
 
 #hero div.hero-image{
     background-image: url('../img/Banner.JPG');
@@ -211,7 +206,7 @@ div.image-container {
     font-size: 20px;
 }
 
- h2{ 
+h2{ 
     
     color: $color2;
     @include flex-horizontal-center;
@@ -267,13 +262,19 @@ button{
     font-size: 16px;
     padding: 5px;
     border-radius: 3px;
+    transition: all 0.2s  ease-in-out;
+    &:hover{
+    transform: scale(110%);
+    transition: all 0.2s  ease-in-out;
+
+    }
 }
+
 
 button a{
     text-decoration: none;
 
 }
-
 
 .card h3{
     text-align: justify;
@@ -594,11 +595,6 @@ section.services-grid{
     color: $color3;
 }
 
-
-
-
-
-
 .navbar{
     background-color: $color1 !important;
     
@@ -612,9 +608,6 @@ section.services-grid{
     font-size: 20px;
     color: $color3;
 }
-
-
-
 
 
 @media (max-width: 768px) {

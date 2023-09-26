@@ -244,6 +244,11 @@ button {
   font-size: 16px;
   padding: 5px;
   border-radius: 3px;
+  transition: all 0.2s ease-in-out;
+}
+button:hover {
+  transform: scale(110%);
+  transition: all 0.2s ease-in-out;
 }
 
 button a {
