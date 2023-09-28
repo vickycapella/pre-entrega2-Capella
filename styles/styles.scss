@@ -2,100 +2,82 @@
 
 /* font-family: 'Roboto Mono', monospace; */
 
-* {
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
-}
+$font1:'Roboto Mono';
 
-.flex-horizontal-center{
-    display: flex;
+$color1: indianred;
+$color2: #0F0326;
+$color3: white;
+
+@mixin flex-horizontal-center {display: flex;
+    justify-content: center;
+    align-items: center;}
+
+@mixin flex-column-center { display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $font1;
+}
+
+.flex-horizontal-center { 
+    @include flex-horizontal-center;}
 
 
 .flex-column-center{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include flex-column-center;
 }
 
 
-/* Nosotros */
-/* section#nosotros{
-    display: flex;
-} */
-article.nosotros-card {
-    display: flex;
-    justify-content: center;
-    align-items: start;
-    width:100%;
-    padding: 20px 0px;
-    font-size: 20px;
-    margin-top:40px;
-    border: none;
-}
-div.image-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 80%;
-    height: auto;
-    object-fit: contain;
-}
+// --------------------COMUNES
 
-div.image-container img {
-    object-fit: cover;
-}
+// /------------* HEADER */--------------
 
-div.image-container img.maria {
-    object-fit: cover;
-}
-
-
-/* header */
 header div.header-wrapper{
     height: 10vh;
-    background-color: indianred;
+    background-color: $color1;
     display: flex;
     justify-content: space-between;
- align-items: center;
+    align-items: center;
     padding-right: 80px;
     padding-left: 80px;
     font-size: 20px;
-    font-family: Roboto Mono;
+    
 }
 
 div.logo a{
-    color: white;
+    color: $color3;
     font-weight: bold;
     text-decoration: none;
 }
 
-.barra ul li {
+.barra {
+ul li {
     list-style: none;
     display: inline-block;
     margin-left: 10px;
 }
-.barra a {
+a {
     text-decoration: none;
-    color:white;
+    color: $color3;
 }
-.barra ul li a:hover{
-    color: #0F0326 ;
+a:hover{
+    color: $color2 ;
 }
-/* footer */
+}
+
+// /------------* FOOTER */--------------
 
 footer {
-    background-color: indianred;
-    font-family: Roboto mono;
-    color: white;
-    display: flex;
+    background-color: $color1; 
+    color: $color3;
+    @include flex-horizontal-center;
     flex-direction:column;
-    justify-content: center;
-    align-items: center;
     width:100%;
     justify-content: space-between;
     padding: 20px 80px;
@@ -105,9 +87,7 @@ footer {
 }
 
 footer .footer-top-container, footer .footer-bottom-container{
-    display: flex;
-    justify-content: center;
-    align-items:center;
+    @include flex-horizontal-center;
     width: 100%;
     height: 100%;
 }
@@ -131,10 +111,10 @@ footer div.footer-bottom-container div.footer-card{
 
 footer div.footer-bottom-container div.footer-card p{
     font-size: 14px;
-    color: #0F0326;
+    color: $color2;
 }
 footer div.footer-card p.footer-content {
-    color: white;
+    color: $color3;
     margin-bottom: 0px;
     margin-top: 10px
 }
@@ -143,6 +123,35 @@ footer div.footer-card p.footer-content {
 
 footer .footer-card .footer-title{
     margin-bottom: 0px;
+}
+
+
+
+// PAGES:
+
+/* -------Nosotros */
+article.nosotros-card {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width:100%;
+    padding: 20px 0px;
+    font-size: 20px;
+    margin-top:40px;
+    border: none;
+}
+div.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    height: auto;
+    object-fit: contain;
+
+    img{
+    object-fit: cover;
+    }
+
 }
 
 #hero div.hero-image{
@@ -155,20 +164,18 @@ footer .footer-card .footer-title{
     
 }
 #hero div.hero-image div.inset-layout{
-    display:flex;
+    @include flex-horizontal-center;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     background-color: #000000a3;
     height: 100%;
     padding: 0 200px;
-    color: white;
+    color: $color3;
 
 }
 
 #hero div.hero-image div.inset-layout h2,
 #hero div.hero-image div.inset-layout p{
-    color: white;
+    color: $color3;
 }
 
 #hero div.hero-image div.inset-layout button{
@@ -179,7 +186,7 @@ footer .footer-card .footer-title{
 /* #hero img {
     height: 500px;
     width: 100%;
-    background-color: #0F0326;
+    background-color: $color2;
     background-size: cover;
     background-position: center;
     object-fit: cover;
@@ -187,89 +194,84 @@ footer .footer-card .footer-title{
 } */
 #hero p {
     display: flex;
-    font-family: Roboto mono;
-    color: #0F0326;
-    display: flex;
-    justify-content: center;
+    
+    color: $color2;
+    @include flex-horizontal-center;
     height: 80px;
     justify-content: space-between;
-     align-items: center;
     padding-right: 80px;
     padding-left: 80px;
     font-size: 20px;
 }
 
- h2{ font-family: Roboto mono;
-    color: #0F0326;display: flex;
-    justify-content: center;
+h2{ 
+    
+    color: $color2;
+    @include flex-horizontal-center;
     height: 80px;
     justify-content: space-between;
-     align-items: center;
     padding-right: 80px;
     padding-left: 80px;
     font-size: 20px;}
 h3 {
-    font-family: Roboto mono;
-    color: #0F0326;
-    display: flex;
-    justify-content: space-between;
-    justify-content: center;
-    align-items: center;
+    
+    color: $color2;
+    @include flex-horizontal-center;
     height: 80px;
     padding-right: 80px;
     padding-left: 80px;
     font-size: 20px;
 }
 h4{
-    font-family: Roboto mono;
-    color: #0F0326;
-    display: flex;
-    justify-content: center;
+    
+    color: $color2;
+    @include flex-horizontal-center;
     height: 80px;
-    justify-content: space-between;
-    align-items: center;
 }
 
 
- .testimonios p{
+.testimonios p{
     display: flex;
-    font-family: Roboto mono;
-    color: #0F0326;
-    display: flex;
-    justify-content: center;
+    
+    color: $color2;
+    @include flex-horizontal-center;
     height: 80px;
-    justify-content: space-between;
-     align-items: center;
     padding-right: 80px;
     padding-left: 80px;
     font-size: 20px;
- }
+}
 
- p{
-    color: #0F0326;
+p{
+    color: $color2;
     font-size: 16px;
     text-align: justify;
- }
+    
+}
 
- label{ 
-    font-family: Roboto mono;
-    color: #0F0326;
+label{ 
+    
+    color: $color2;
     font-size: 16px;
- }
+}
 
- button{ 
+button{ 
     background-color: #FFFF82;
     height: auto;
     font-size: 16px;
     padding: 5px;
     border-radius: 3px;
- }
+    transition: all 0.2s  ease-in-out;
+    &:hover{
+    transform: scale(110%);
+    transition: all 0.2s  ease-in-out;
+    }
+}
+
 
 button a{
     text-decoration: none;
 
 }
-
 
 .card h3{
     text-align: justify;
@@ -281,11 +283,11 @@ button a{
     padding:15px;
     display: flex;
 }
- .card p {
+.card p {
     text-align: justify;
     padding:15px;
     display: flex;
- }
+}
 
 
 
@@ -318,7 +320,7 @@ justify-content: space-between;
     background-position: center;
     border-radius: 10px;
     transition: transform 0.6s ease;
-    border: 5px solid white;
+    border: 5px solid $color3;
 
 }
 .item:hover{
@@ -430,11 +432,9 @@ main.contacto h2.contact-title {
 }
 
 .contact-card { 
-    font-family: roboto mono;
+    
     padding: 20px 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex-horizontal-center;
     padding: 20px 80px;
 
 }
@@ -511,13 +511,11 @@ textarea.form-textarea{
 }
 
 #banner .card-banner{
-    display: flex;
+    @include flex-horizontal-center;
     flex-direction: column-reverse;
     border: solid 2px black;
     border-radius: 10px;
-    align-items: center;
     height: 150px;
-    justify-content: center;
 }
 
 .iconos {
@@ -540,7 +538,7 @@ section.services-grid{
 
 
 .texto-servicios {
-    font-family: Roboto Mono;
+    
     margin: 16px;
     font-size: 14px;
 
@@ -565,23 +563,21 @@ section.services-grid{
     height: auto;
     text-align: center;
     display: block;
- }
- .ico{
+}
+.ico{
     margin-bottom: 16px;
- }
- .ico i{
+}
+.ico i{
     margin-right: 12px;
     margin-left: 12px;
- }
+}
 
 /* BOTON WHATS! */
 
 .what{
     width: 60px;
     height: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex-horizontal-center;
     padding:20px;
     background-color: #B5D99C;
     position: fixed;
@@ -593,30 +589,22 @@ section.services-grid{
     font-size: 40px;
 }
 .what a{
-    color: white;
+    color: $color3;
 }
 
-
-
-
-
-
 .navbar{
-    background-color: #cd5c5c !important;
-    font-family: Roboto mono;
+    background-color: $color1 !important;
+    
     overflow-x: hidden;
 }
 .navbar-custom{
     width: 100%;
     display: flex;
     justify-content: flex-end;
-    font-family: Roboto Mono;
+    
     font-size: 20px;
-    color: white;
+    color: $color3;
 }
-
-
-
 
 
 @media (max-width: 768px) {
@@ -687,7 +675,7 @@ section.services-grid{
         padding: 20px;
     }
     div.formulario-contacto{
-       margin-left: 0;
+    margin-left: 0;
     }
 }
 
@@ -767,7 +755,7 @@ section.services-grid{
     }
 }
 
- @media (max-width: 768px) {
+@media (max-width: 768px) {
     section#banner {
         display: flex;
         flex-direction: column;
