@@ -194,10 +194,10 @@ div.image-container {
 } */
 #hero p {
     display: flex;
-    
+    margin: 30px;
     color: $color2;
     @include flex-horizontal-center;
-    height: 80px;
+
     justify-content: space-between;
     padding-right: 80px;
     padding-left: 80px;
@@ -208,7 +208,7 @@ h2{
     
     color: $color2;
     @include flex-horizontal-center;
-    height: 80px;
+    height: auto;
     justify-content: space-between;
     padding-right: 80px;
     padding-left: 80px;
@@ -594,7 +594,6 @@ section.services-grid{
 
 .navbar{
     background-color: $color1 !important;
-    
     overflow-x: hidden;
 }
 .navbar-custom{
@@ -731,10 +730,12 @@ section.services-grid{
     h2.titulo-home{
         font-size: 16px;
         height: auto;
+        padding: 10px;
+
     }
     #hero p.p-home{
-        margin: 30px;
-        border: 30px;
+        // margin: 30px;
+
         font-size: 16px;
         height: auto;
     }

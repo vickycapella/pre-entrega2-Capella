@@ -173,11 +173,11 @@ div.image-container img {
 } */
 #hero p {
   display: flex;
+  margin: 30px;
   color: #0F0326;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80px;
   justify-content: space-between;
   padding-right: 80px;
   padding-left: 80px;
@@ -189,7 +189,7 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80px;
+  height: auto;
   justify-content: space-between;
   padding-right: 80px;
   padding-left: 80px;
@@ -719,10 +719,9 @@ section.services-grid {
   h2.titulo-home {
     font-size: 16px;
     height: auto;
+    padding: 10px;
   }
   #hero p.p-home {
-    margin: 30px;
-    border: 30px;
     font-size: 16px;
     height: auto;
   }
