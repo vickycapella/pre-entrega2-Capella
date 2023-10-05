@@ -191,6 +191,7 @@ h2 {
   align-items: center;
   height: auto;
   justify-content: space-between;
+  padding-top: 30px;
   padding-right: 80px;
   padding-left: 80px;
   font-size: 20px;
@@ -424,7 +425,7 @@ main.contacto {
 }
 
 main.contacto h2.contact-title {
-  padding: 0px 0px;
+  padding-top: 30px;
 }
 
 .contact-cards-container {
