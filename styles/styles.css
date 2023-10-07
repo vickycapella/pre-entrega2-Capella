@@ -283,16 +283,6 @@ button a {
 
 /* --------------------------------PORTFOLIO-------------------------------- */
 /* ------------------------------------------------------------------------- */
-/* main#portfolio-main{
-min-height: 66vh;
-}
-
-#portfolio  div.images-container {
-padding: 20px 80px;
-display: flex;
-justify-content: space-between;
-}
-  */
 .galeria {
   height: auto;
   width: auto;
@@ -749,6 +739,10 @@ section.services-grid {
     width: 100%;
     margin-bottom: 20px;
     padding: 0;
+  }
+  .testimonios .resenas p.p-resena {
+    padding-left: 5px;
+    padding-right: 5px;
   }
 }
 @media (max-width: 768px) {
