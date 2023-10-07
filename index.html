@@ -3,8 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Estudio de desarrollo web, diseño grafico y marketing digital" />
-    <meta name="keywords" content="desarrollo, diseño, marketing, redes sociales">
+    <meta
+      name="description"
+      content="Estudio de desarrollo web, diseño grafico y marketing digital"
+    />
+    <meta
+      name="keywords"
+      content="desarrollo, diseño, marketing, redes sociales"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
@@ -21,52 +27,45 @@
       crossorigin="anonymous"
     />
     <!-- BS fin -->
-    <link rel="stylesheet" href="./styles/styles.css"/>
+    <link rel="stylesheet" href="./styles/styles.css" />
     <title>Estudio Vifle</title>
   </head>
   <body id="homepage">
     <header>
-        <!-- navbar inicia -->
-        <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">Estudio Vifle!</a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#collapsibleNavbar"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div
-              class="collapse navbar-collapse navbar-custom"
-              id="collapsibleNavbar"
-            >
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./pages/servicios.html"
-                    >Servicios</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./pages/portfolio.html"
-                    >Portfolio</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./pages/contacto.html"
-                    >Contactanos</a
-                  >
-                </li>
-              </ul>
-            </div>
+      <!-- navbar inicia -->
+      <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Estudio Vifle!</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapsibleNavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse navbar-custom"
+            id="collapsibleNavbar"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/servicios.html">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/contacto.html">Contactanos</a>
+              </li>
+            </ul>
           </div>
-        </nav>
-        <!-- navbar fin -->
-      </div>
+        </div>
+      </nav>
+      <!-- navbar fin -->
     </header>
     <main class="home-page">
       <section id="hero">
@@ -79,7 +78,9 @@
               creación y desarrollo de tu proyecto. Somos un equipo
               multidisciplinario.
             </p>
-            <button class="boton-home"><a href="./pages/nosotros.html">Conocenos</a></button>
+            <button class="boton-home">
+              <a href="./pages/nosotros.html">Conocenos</a>
+            </button>
           </div>
         </div>
         <!-- <img src="../img/Banner.jpg" alt="gente trabajando"> -->
@@ -115,16 +116,33 @@
         </div>
       </section>
       <section class="testimonios">
-        <h3 class="titulo-resena">Si nos recomiendan, es que trabajamos bien!</h3>
+        <h3 class="titulo-resena">
+          Si nos recomiendan, es que trabajamos bien!
+        </h3>
         <div class="resenas">
           <p class="p-resena">
-            "¡Increíble atención al detalle y resultados impresionantes! El equipo superó mis expectativas en todos los aspectos. Sin duda, los recomiendo a cualquiera que busque calidad y profesionalismo. Juan Gonzalez"
+            <span class="span-resena">
+              "¡Increíble atención al detalle y resultados impresionantes! El
+              equipo superó mis expectativas en todos los aspectos. Sin duda,
+              los recomiendo a cualquiera que busque calidad y profesionalismo"
+            </span>
+            <span class="resena-name">- Juan Gonzalez.</span>
           </p>
           <p class="p-resena">
-            "Trabajar con este equipo fue una experiencia excepcional. Su enfoque creativo y habilidades técnicas nos permitieron lograr exactamente lo que necesitábamos. ¡Altamente recomendado! María Lima"
+            <span class="span-resena"
+              >"Trabajar con este equipo fue una experiencia excepcional. Su
+              enfoque creativo y habilidades técnicas nos permitieron lograr
+              exactamente lo que necesitábamos. ¡Altamente recomendado!"</span
+            >
+            <span class="resena-name">- María Lima.</span>
           </p>
           <p class="p-resena">
-            "Desde el diseño hasta la implementación, el equipo demostró un compromiso excepcional con nuestro proyecto. La comunicación fluida y la calidad del trabajo son incomparables. Rocio Rolleri"
+            <span class="span-resena"
+              >"Desde el diseño hasta la implementación, el equipo demostró un
+              compromiso excepcional con nuestro proyecto. La comunicación
+              fluida y la calidad del trabajo son incomparables"
+            </span>
+            <span class="resena-name">- Rocio Rolleri.</span>
           </p>
         </div>
       </section>
@@ -139,8 +157,12 @@
         <div class="footer-card social-media">
           <p class="footer-title">Follow us:</p>
           <p class="footer-content">
-            <i class="fa-brands fa-instagram"></i> Instagram <br />
-            <i class="fa-brands fa-facebook"></i> Facebook
+            <a href="https://www.instagram.com/" class="hipervinculo">
+              <i class="fa-brands fa-instagram"></i> Instagram <br />
+            </a>
+            <a href="https://www.facebook.com/" class="hipervinculo">
+              <i class="fa-brands fa-facebook"></i> Facebook
+            </a>
           </p>
         </div>
       </div>
@@ -148,13 +170,11 @@
         <div class="footer-card">
           <p class="footer-title">Estudio Vifle</p>
           <p class="footer-content">
-            Diseñadores gráficos y web/ Diseñadores de logotipos/ Diseño de imagen
-            de marca.
+            Diseñadores gráficos y web/ Diseñadores de logotipos/ Diseño de
+            imagen de marca.
           </p>
         </div>
       </div>
-      
-      
     </footer>
     <div class="what">
       <a href="https://walink.co/0b8101" target="_blank">
