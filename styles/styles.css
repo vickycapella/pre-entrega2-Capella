@@ -597,6 +597,10 @@ section.services-grid {
   background-color: indianred !important;
   overflow-x: hidden;
 }
+.navbar div a img {
+  height: 100%;
+  width: 200px;
+}
 
 .navbar-custom {
   width: 100%;
