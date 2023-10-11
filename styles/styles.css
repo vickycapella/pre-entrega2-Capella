@@ -298,13 +298,14 @@ button a {
   background-size: cover;
   background-position: center;
   border-radius: 10px;
-  transition: transform 0.6s ease;
+  transition: all 0.5s ease;
   border: 5px solid white;
 }
 
 .item:hover {
   transform: scale(1.15);
   transition: transform 0.8s ease;
+  z-index: 20;
 }
 
 .item1 {
@@ -320,11 +321,11 @@ button a {
 }
 
 .item4 {
-  background-image: url(https://rayoestudio.com/wp-content/uploads/2020/02/cclaok-1.jpg);
+  background-image: url(https://rayoestudio.com/wp-content/uploads/2022/08/Artboard-142@3x-100.jpg);
 }
 
 .item5 {
-  background-image: url(https://rayoestudio.com/wp-content/uploads/2020/05/brut_social_media.jpg);
+  background-image: url(https://rayoestudio.com/wp-content/uploads/2023/07/hifan2.png);
 }
 
 .item6 {
@@ -332,7 +333,7 @@ button a {
 }
 
 .item7 {
-  background-image: url(https://rayoestudio.com/wp-content/uploads/2023/07/hifan2.png);
+  background-image: url(https://rayoestudio.com/wp-content/uploads/2020/05/brut_social_media.jpg);
 }
 
 .item8 {
@@ -344,15 +345,15 @@ button a {
 }
 
 .item10 {
-  background-image: url(https://rayoestudio.com/wp-content/uploads/2022/08/Artboard-147@3x-100.jpg);
+  background-image: url(../img/MarketingDigital.jpg);
 }
 
 .item11 {
-  background-image: url(https://rayoestudio.com/wp-content/uploads/2022/08/Artboard-142@3x-100.jpg);
+  background-image: url(https://rayoestudio.com/wp-content/uploads/2020/02/cclaok-1.jpg);
 }
 
 .item12 {
-  background-image: url(../img/MarketingDigital.jpg);
+  background-image: url(https://rayoestudio.com/wp-content/uploads/2022/08/Artboard-147@3x-100.jpg);
 }
 
 .item1 {
