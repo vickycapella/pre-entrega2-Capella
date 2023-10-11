@@ -763,5 +763,9 @@ section.services-grid {
     padding-left: 30px;
     padding-right: 30px;
   }
+  .testimonios .resenas p.p-resena {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
 }
 /* mediasqueries *//*# sourceMappingURL=styles.css.map */
