@@ -290,7 +290,7 @@ button a {
   padding-right: 80px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(6, 200px);
+  grid-template-rows: repeat(6, 400px);
   /* grid-gap: 15px; */
 }
 
@@ -308,47 +308,47 @@ button a {
 }
 
 .item1 {
-  background-image: url(../img/laptop.jpg);
+  background-image: url(https://rayoestudio.com/wp-content/uploads/2023/07/creemy.png);
 }
 
 .item2 {
-  background-image: url(../img/RedesSociales.jpg);
+  background-image: url(https://rayoestudio.com/wp-content/uploads/2022/09/kuper-featuredokok.jpg);
 }
 
 .item3 {
-  background-image: url(../img/DisenoGrafico.jpg);
+  background-image: url(https://rayoestudio.com/wp-content/uploads/2020/11/stories.jpg);
 }
 
 .item4 {
-  background-image: url(../img/MarketingDigital.jpg);
+  background-image: url(https://rayoestudio.com/wp-content/uploads/2020/02/cclaok-1.jpg);
 }
 
 .item5 {
-  background-image: url(../img/laptop.jpg);
+  background-image: url(https://rayoestudio.com/wp-content/uploads/2020/05/brut_social_media.jpg);
 }
 
 .item6 {
-  background-image: url(../img/RedesSociales.jpg);
+  background-image: url(https://rayoestudio.com/wp-content/uploads/2023/07/03ezturns-1.jpg);
 }
 
 .item7 {
-  background-image: url(../img/DisenoGrafico.jpg);
+  background-image: url(https://rayoestudio.com/wp-content/uploads/2023/07/hifan2.png);
 }
 
 .item8 {
-  background-image: url(../img/MarketingDigital.jpg);
+  background-image: url(https://rayoestudio.com/wp-content/uploads/2022/08/cosmeleaks-4.jpg);
 }
 
 .item9 {
-  background-image: url(../img/laptop.jpg);
+  background-image: url(https://rayoestudio.com/wp-content/uploads/2023/07/chartabrand-30.jpg.webp);
 }
 
 .item10 {
-  background-image: url(../img/RedesSociales.jpg);
+  background-image: url(https://rayoestudio.com/wp-content/uploads/2022/08/Artboard-147@3x-100.jpg);
 }
 
 .item11 {
-  background-image: url(../img/DisenoGrafico.jpg);
+  background-image: url(https://rayoestudio.com/wp-content/uploads/2022/08/Artboard-142@3x-100.jpg);
 }
 
 .item12 {
